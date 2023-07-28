@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<app version="1">
+	<name>WiiGPTii</name>
+	<version>1.0.1</version>
+	<release_date>20230722000000</release_date>
+	<coder>Dakotath</coder>
+	<short_description>OpenAI for your Wii!</short_description>
+	<long_description>We have a Chat feature, And a Dall-E image generation tool. it also has SAM TTS, so that it suits this app (makes it more robotic).
+</long_description>
+</app>

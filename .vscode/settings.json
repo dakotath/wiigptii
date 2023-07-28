@@ -1,0 +1,10 @@
+{
+    "files.associations": {
+        "*.embeddedhtml": "html",
+        "stdio.h": "c",
+        "stdlib.h": "c",
+        "debug.h": "c",
+        "rendertabs.h": "c",
+        "iostream": "cpp"
+    }
+}
