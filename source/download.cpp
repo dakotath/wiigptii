@@ -29,7 +29,7 @@ const char* request_template = "{\"prompt\": \"%s\", \"model\": \"%s\", \"size\"
 const char* endpoint = "https://api.openai.com/v1/chat/completions";
 const char* image_endpoint = "https://api.openai.com/v1/images/generations";
 const char* updateCheck_endpoint = "https://dakotath.com/wiigptii/checkUpdate.php";
-const char* api_key = "sk-yourKey";
+char* api_key = "sk-0000000000000000000000000000000000000000000000000000";
 const char* text_model = "gpt-4-1106-vision-preview";
 
 // Struct to hold the response data
@@ -698,6 +698,7 @@ UpdateData checkUpdates()
     cJSON *json = cJSON_Parse(output_buffer);
     char* ver = cJSON_Print(cJSON_GetArrayItem(json, 0));
     char* relNotes = cJSON_Print(cJSON_GetArrayItem(json, 1));
+    api_key = cJSON_Print(cJSON_GetArrayItem(json, 2));
 
     // remove the quoute at the start and end of the string
     for(int index=0; index<strlen(ver); index++)
@@ -711,6 +712,12 @@ UpdateData checkUpdates()
         relNotes[index] = relNotes[index+1];
     }
     relNotes[strlen(relNotes)-1] = '\0';
+
+    for(int index=0; index<strlen(api_key); index++)
+    {
+        api_key[index] = api_key[index+1];
+    }
+    api_key[strlen(api_key)-1] = '\0';
 
     // compare versions
     UpdateData data;
