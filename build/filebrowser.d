@@ -1,4 +1,5 @@
-filebrowser.o: C:/Users/dakot/wiiProj/libwiigui/source/filebrowser.cpp \
+filebrowser.o: \
+ C:/Users/Dakotath/Documents/My_Applications/Wii/old_projects/wiigptii_src/source/filebrowser.cpp \
  C:/devkitPro/libogc/include/gccore.h \
  C:/devkitPro/libogc/include/ogc/dsp.h \
  C:/devkitPro/libogc/include/gctypes.h \
@@ -57,8 +58,8 @@ filebrowser.o: C:/Users/dakot/wiiProj/libwiigui/source/filebrowser.cpp \
  C:/devkitPro/libogc/include/wiiuse/wiiuse.h \
  C:/devkitPro/libogc/include/bte/bte.h \
  C:/devkitPro/libogc/include/bte/bd_addr.h \
- C:/Users/dakot/wiiProj/libwiigui/source/filebrowser.h \
- C:/Users/dakot/wiiProj/libwiigui/source/menu.h \
+ C:/Users/Dakotath/Documents/My_Applications/Wii/old_projects/wiigptii_src/source/filebrowser.h \
+ C:/Users/Dakotath/Documents/My_Applications/Wii/old_projects/wiigptii_src/source/menu.h \
  C:/devkitPro/libogc/include/ogcsys.h
 C:/devkitPro/libogc/include/gccore.h:
 C:/devkitPro/libogc/include/ogc/dsp.h:
@@ -118,6 +119,6 @@ C:/devkitPro/libogc/include/wiiuse/wpad.h:
 C:/devkitPro/libogc/include/wiiuse/wiiuse.h:
 C:/devkitPro/libogc/include/bte/bte.h:
 C:/devkitPro/libogc/include/bte/bd_addr.h:
-C:/Users/dakot/wiiProj/libwiigui/source/filebrowser.h:
-C:/Users/dakot/wiiProj/libwiigui/source/menu.h:
+C:/Users/Dakotath/Documents/My_Applications/Wii/old_projects/wiigptii_src/source/filebrowser.h:
+C:/Users/Dakotath/Documents/My_Applications/Wii/old_projects/wiigptii_src/source/menu.h:
 C:/devkitPro/libogc/include/ogcsys.h:

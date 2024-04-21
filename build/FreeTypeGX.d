@@ -1,5 +1,6 @@
-FreeTypeGX.o: C:/Users/dakot/wiiProj/libwiigui/source/FreeTypeGX.cpp \
- C:/Users/dakot/wiiProj/libwiigui/source/FreeTypeGX.h \
+FreeTypeGX.o: \
+ C:/Users/Dakotath/Documents/My_Applications/Wii/old_projects/wiigptii_src/source/FreeTypeGX.cpp \
+ C:/Users/Dakotath/Documents/My_Applications/Wii/old_projects/wiigptii_src/source/FreeTypeGX.h \
  C:/devkitPro/libogc/include/gccore.h \
  C:/devkitPro/libogc/include/ogc/dsp.h \
  C:/devkitPro/libogc/include/gctypes.h \
@@ -71,7 +72,7 @@ FreeTypeGX.o: C:/Users/dakot/wiiProj/libwiigui/source/FreeTypeGX.cpp \
  C:/devkitPro/portlibs/ppc/include/freetype2/freetype/fterrdef.h \
  C:/devkitPro/portlibs/ppc/include/freetype2/freetype/ftbitmap.h \
  C:/devkitPro/portlibs/ppc/include/freetype2/freetype/ftcolor.h
-C:/Users/dakot/wiiProj/libwiigui/source/FreeTypeGX.h:
+C:/Users/Dakotath/Documents/My_Applications/Wii/old_projects/wiigptii_src/source/FreeTypeGX.h:
 C:/devkitPro/libogc/include/gccore.h:
 C:/devkitPro/libogc/include/ogc/dsp.h:
 C:/devkitPro/libogc/include/gctypes.h:

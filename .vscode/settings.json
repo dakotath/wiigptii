@@ -5,6 +5,9 @@
         "stdlib.h": "c",
         "debug.h": "c",
         "rendertabs.h": "c",
-        "iostream": "cpp"
+        "iostream": "cpp",
+        "vector": "cpp",
+        "xstring": "cpp",
+        "xutility": "cpp"
     }
 }

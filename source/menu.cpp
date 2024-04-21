@@ -34,6 +34,8 @@
 
 #define THREAD_SLEEP 100
 
+extern bool canHazUpdate;
+
 static GuiImageData * pointer[4];
 static GuiImage * bgImg = NULL;
 static GuiSound * bgMusic = NULL;
@@ -993,9 +995,14 @@ static int MenuSettings()
 	GuiWindow w(screenwidth, screenheight);
 	w.Append(&titleTxt);
 	w.Append(&chatBtn);
-	w.Append(&updateBtn);
-	w.Append(&openAIBtn);
 
+	// Only apply the update button if there is an update available.
+	if(canHazUpdate)
+	{
+		w.Append(&updateBtn);
+	}
+
+	w.Append(&openAIBtn);
 	w.Append(&exitBtn);
 	
 	mainWindow->Append(&w);
@@ -1125,7 +1132,6 @@ static int OpenAIDalle()
 	// put that pasta together
 	HaltGui();
 	GuiWindow w(screenwidth, screenheight); // our window
-	w.Append(&backBtn); // append our back button.
 	mainWindow->Append(&w); // append our window
 	ResumeGui();
 	// end of that pasta
@@ -1141,13 +1147,13 @@ static int OpenAIDalle()
 			char output[256];
 			memset(output, 0, 256);
 			OnScreenKeyboard(output, 256);
-			//WindowPrompt("Chat GPT Client", output, "OK", NULL);
+			WindowPrompt("Notice", "Warning: We are in the process of trying to fix DALL-E image generation.", "OK", NULL);
 			// ask openai for a response
 			char* response;
 			char *prompt = output;
 			//response = ask_chat_model(prompt);
 			doLoading=true;
-			generate_image(prompt, 256, 256);
+			generate_image(prompt, 512, 512);
 			playSfx(tada_pcm, tada_pcm_size, 5);
 			FILE *fp = fopen("generated_image.png", "rb");
 			fseek(fp, 0, SEEK_END);
@@ -1164,6 +1170,7 @@ static int OpenAIDalle()
 			doLoading=false;
 			HaltGui();
 			w.Append(&downloadedImageImg);
+			w.Append(&backBtn); // append our back button.
 			ResumeGui();
 		}
 		// add somethings to our main window
@@ -1210,14 +1217,15 @@ static int SelfUpdaterMenu()
 	mainWindow->Append(&w); // append our window
 	ResumeGui();
 	// end of that pasta
+
 	while(menu == MENU_NONE) {
 		usleep(THREAD_SLEEP); // sleep for a bit
 
-		int choice = WindowPromptSmall("Welcome to self Updater", "Check for updates?", "OK", "NO");
-		if(choice == 1)
-		{
+		//int choice = WindowPromptSmall("Welcome to self Updater", "Check for updates?", "OK", "NO");
+		//if(choice == 1)
+		//{
 			// check for updates
-			WindowPromptSmall("Welcome to self Updater", "Checking for updates...", "OK", NULL);
+			//WindowPromptSmall("Welcome to self Updater", "Checking for updates...", "OK", NULL);
 			UpdateData updateDat = checkUpdates();
 			if(updateDat.update_available)
 			{
@@ -1237,11 +1245,11 @@ static int SelfUpdaterMenu()
 				WindowPromptSmall("The version on the server:", updateDat.version, "OK", NULL);
 				menu = MENU_SETTINGS;
 			}
-		}
-		else if(choice == 0)
-		{
+		//}
+		//else if(choice == 0)
+		//{
 			// do nothing
-		}
+		//}
 
 		if(backBtn.GetState() == STATE_CLICKED) // set menu to MENU_SETTINGS if back button is clicked
 		{

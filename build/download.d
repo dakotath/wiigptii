@@ -1,6 +1,7 @@
-download.o: C:/Users/dakot/wiiProj/libwiigui/source/download.cpp \
- C:/Users/dakot/wiiProj/libwiigui/source/download.h \
- C:/Users/dakot/wiiProj/libwiigui/source/libwiigui/gui.h \
+download.o: \
+ C:/Users/Dakotath/Documents/My_Applications/Wii/old_projects/wiigptii_src/source/download.cpp \
+ C:/Users/Dakotath/Documents/My_Applications/Wii/old_projects/wiigptii_src/source/menu.h \
+ C:/devkitPro/libogc/include/ogcsys.h \
  C:/devkitPro/libogc/include/gccore.h \
  C:/devkitPro/libogc/include/ogc/dsp.h \
  C:/devkitPro/libogc/include/gctypes.h \
@@ -55,13 +56,15 @@ download.o: C:/Users/dakot/wiiProj/libwiigui/source/download.cpp \
  C:/devkitPro/libogc/include/ogc/mutex.h \
  C:/devkitPro/libogc/include/ogc/system.h \
  C:/devkitPro/libogc/include/ogc/wiilaunch.h \
+ C:/Users/Dakotath/Documents/My_Applications/Wii/old_projects/wiigptii_src/source/download.h \
+ C:/Users/Dakotath/Documents/My_Applications/Wii/old_projects/wiigptii_src/source/libwiigui/gui.h \
  C:/devkitPro/libogc/include/asndlib.h \
  C:/devkitPro/libogc/include/wiiuse/wpad.h \
  C:/devkitPro/libogc/include/wiiuse/wiiuse.h \
  C:/devkitPro/libogc/include/bte/bte.h \
  C:/devkitPro/libogc/include/bte/bd_addr.h \
- C:/Users/dakot/wiiProj/libwiigui/source/pngu.h \
- C:/Users/dakot/wiiProj/libwiigui/source/FreeTypeGX.h \
+ C:/Users/Dakotath/Documents/My_Applications/Wii/old_projects/wiigptii_src/source/pngu.h \
+ C:/Users/Dakotath/Documents/My_Applications/Wii/old_projects/wiigptii_src/source/FreeTypeGX.h \
  C:/devkitPro/portlibs/ppc/include/freetype2/ft2build.h \
  C:/devkitPro/portlibs/ppc/include/freetype2/freetype/config/ftheader.h \
  C:/devkitPro/portlibs/ppc/include/freetype2/freetype/freetype.h \
@@ -79,11 +82,10 @@ download.o: C:/Users/dakot/wiiProj/libwiigui/source/download.cpp \
  C:/devkitPro/portlibs/ppc/include/freetype2/freetype/fterrdef.h \
  C:/devkitPro/portlibs/ppc/include/freetype2/freetype/ftbitmap.h \
  C:/devkitPro/portlibs/ppc/include/freetype2/freetype/ftcolor.h \
- C:/Users/dakot/wiiProj/libwiigui/source/video.h \
- C:/devkitPro/libogc/include/ogcsys.h \
- C:/Users/dakot/wiiProj/libwiigui/source/filelist.h \
- C:/Users/dakot/wiiProj/libwiigui/source/input.h \
- C:/Users/dakot/wiiProj/libwiigui/source/oggplayer.h \
+ C:/Users/Dakotath/Documents/My_Applications/Wii/old_projects/wiigptii_src/source/video.h \
+ C:/Users/Dakotath/Documents/My_Applications/Wii/old_projects/wiigptii_src/source/filelist.h \
+ C:/Users/Dakotath/Documents/My_Applications/Wii/old_projects/wiigptii_src/source/input.h \
+ C:/Users/Dakotath/Documents/My_Applications/Wii/old_projects/wiigptii_src/source/oggplayer.h \
  C:/devkitPro/portlibs/wii/include/curl/curl.h \
  C:/devkitPro/portlibs/wii/include/curl/curlver.h \
  C:/devkitPro/portlibs/wii/include/curl/system.h \
@@ -93,12 +95,16 @@ download.o: C:/Users/dakot/wiiProj/libwiigui/source/download.cpp \
  C:/devkitPro/portlibs/wii/include/curl/curl.h \
  C:/devkitPro/portlibs/wii/include/curl/urlapi.h \
  C:/devkitPro/portlibs/wii/include/curl/options.h \
- C:/Users/dakot/wiiProj/libwiigui/source/libcJSON/cJSON.h \
- C:/Users/dakot/wiiProj/libwiigui/source/libcJSON/cJSON_Utils.h \
- C:/Users/dakot/wiiProj/libwiigui/source/libcJSON/cJSON.h \
- C:/Users/dakot/wiiProj/libwiigui/source/libsam/sam.h
-C:/Users/dakot/wiiProj/libwiigui/source/download.h:
-C:/Users/dakot/wiiProj/libwiigui/source/libwiigui/gui.h:
+ C:/devkitPro/portlibs/wii/include/curl/header.h \
+ C:/devkitPro/portlibs/wii/include/curl/websockets.h \
+ C:/devkitPro/portlibs/wii/include/curl/mprintf.h \
+ C:/Users/Dakotath/Documents/My_Applications/Wii/old_projects/wiigptii_src/source/audio.h \
+ C:/Users/Dakotath/Documents/My_Applications/Wii/old_projects/wiigptii_src/source/libcJSON/cJSON.h \
+ C:/Users/Dakotath/Documents/My_Applications/Wii/old_projects/wiigptii_src/source/libcJSON/cJSON_Utils.h \
+ C:/Users/Dakotath/Documents/My_Applications/Wii/old_projects/wiigptii_src/source/libcJSON/cJSON.h \
+ C:/Users/Dakotath/Documents/My_Applications/Wii/old_projects/wiigptii_src/source/libsam/sam.h
+C:/Users/Dakotath/Documents/My_Applications/Wii/old_projects/wiigptii_src/source/menu.h:
+C:/devkitPro/libogc/include/ogcsys.h:
 C:/devkitPro/libogc/include/gccore.h:
 C:/devkitPro/libogc/include/ogc/dsp.h:
 C:/devkitPro/libogc/include/gctypes.h:
@@ -153,13 +159,15 @@ C:/devkitPro/libogc/include/ogc/usbstorage.h:
 C:/devkitPro/libogc/include/ogc/mutex.h:
 C:/devkitPro/libogc/include/ogc/system.h:
 C:/devkitPro/libogc/include/ogc/wiilaunch.h:
+C:/Users/Dakotath/Documents/My_Applications/Wii/old_projects/wiigptii_src/source/download.h:
+C:/Users/Dakotath/Documents/My_Applications/Wii/old_projects/wiigptii_src/source/libwiigui/gui.h:
 C:/devkitPro/libogc/include/asndlib.h:
 C:/devkitPro/libogc/include/wiiuse/wpad.h:
 C:/devkitPro/libogc/include/wiiuse/wiiuse.h:
 C:/devkitPro/libogc/include/bte/bte.h:
 C:/devkitPro/libogc/include/bte/bd_addr.h:
-C:/Users/dakot/wiiProj/libwiigui/source/pngu.h:
-C:/Users/dakot/wiiProj/libwiigui/source/FreeTypeGX.h:
+C:/Users/Dakotath/Documents/My_Applications/Wii/old_projects/wiigptii_src/source/pngu.h:
+C:/Users/Dakotath/Documents/My_Applications/Wii/old_projects/wiigptii_src/source/FreeTypeGX.h:
 C:/devkitPro/portlibs/ppc/include/freetype2/ft2build.h:
 C:/devkitPro/portlibs/ppc/include/freetype2/freetype/config/ftheader.h:
 C:/devkitPro/portlibs/ppc/include/freetype2/freetype/freetype.h:
@@ -177,11 +185,10 @@ C:/devkitPro/portlibs/ppc/include/freetype2/freetype/ftmoderr.h:
 C:/devkitPro/portlibs/ppc/include/freetype2/freetype/fterrdef.h:
 C:/devkitPro/portlibs/ppc/include/freetype2/freetype/ftbitmap.h:
 C:/devkitPro/portlibs/ppc/include/freetype2/freetype/ftcolor.h:
-C:/Users/dakot/wiiProj/libwiigui/source/video.h:
-C:/devkitPro/libogc/include/ogcsys.h:
-C:/Users/dakot/wiiProj/libwiigui/source/filelist.h:
-C:/Users/dakot/wiiProj/libwiigui/source/input.h:
-C:/Users/dakot/wiiProj/libwiigui/source/oggplayer.h:
+C:/Users/Dakotath/Documents/My_Applications/Wii/old_projects/wiigptii_src/source/video.h:
+C:/Users/Dakotath/Documents/My_Applications/Wii/old_projects/wiigptii_src/source/filelist.h:
+C:/Users/Dakotath/Documents/My_Applications/Wii/old_projects/wiigptii_src/source/input.h:
+C:/Users/Dakotath/Documents/My_Applications/Wii/old_projects/wiigptii_src/source/oggplayer.h:
 C:/devkitPro/portlibs/wii/include/curl/curl.h:
 C:/devkitPro/portlibs/wii/include/curl/curlver.h:
 C:/devkitPro/portlibs/wii/include/curl/system.h:
@@ -191,7 +198,11 @@ C:/devkitPro/portlibs/wii/include/curl/multi.h:
 C:/devkitPro/portlibs/wii/include/curl/curl.h:
 C:/devkitPro/portlibs/wii/include/curl/urlapi.h:
 C:/devkitPro/portlibs/wii/include/curl/options.h:
-C:/Users/dakot/wiiProj/libwiigui/source/libcJSON/cJSON.h:
-C:/Users/dakot/wiiProj/libwiigui/source/libcJSON/cJSON_Utils.h:
-C:/Users/dakot/wiiProj/libwiigui/source/libcJSON/cJSON.h:
-C:/Users/dakot/wiiProj/libwiigui/source/libsam/sam.h:
+C:/devkitPro/portlibs/wii/include/curl/header.h:
+C:/devkitPro/portlibs/wii/include/curl/websockets.h:
+C:/devkitPro/portlibs/wii/include/curl/mprintf.h:
+C:/Users/Dakotath/Documents/My_Applications/Wii/old_projects/wiigptii_src/source/audio.h:
+C:/Users/Dakotath/Documents/My_Applications/Wii/old_projects/wiigptii_src/source/libcJSON/cJSON.h:
+C:/Users/Dakotath/Documents/My_Applications/Wii/old_projects/wiigptii_src/source/libcJSON/cJSON_Utils.h:
+C:/Users/Dakotath/Documents/My_Applications/Wii/old_projects/wiigptii_src/source/libcJSON/cJSON.h:
+C:/Users/Dakotath/Documents/My_Applications/Wii/old_projects/wiigptii_src/source/libsam/sam.h:

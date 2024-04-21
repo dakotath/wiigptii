@@ -30,8 +30,10 @@
 #include "networking.h"
 #include "testTidy.h"
 #include "popup_pcm.h"
+#include "download.h"
 
 struct SSettings Settings;
+extern FILE* debugLog;
 int ExitRequested = 0;
 
 
@@ -71,6 +73,19 @@ main(int argc, char *argv[])
 	InitGUIThreads(); // Initialize GUI
 	//sendDataToUSBGecko("Hello World!\r\n", 13);
 	//_break();
+
+	// Open Debug Log.
+	debugLog = fopen("sd:/wiigptii_diibug_log.txt", "wb");
+	if(debugLog == NULL)
+	{
+		printf("Cannot open debug log...\n");
+	}
+
+	// Check for updates.
+	checkUpdates();
+
+	// Log some info.
+	logVersionInfo();
 
 	DefaultSettings();
 	MainMenu(MENU_SETTINGS);

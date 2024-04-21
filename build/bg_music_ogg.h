@@ -6,7 +6,7 @@
 extern const uint8_t bg_music_ogg[];
 extern const uint8_t bg_music_ogg_end[];
 #if __cplusplus >= 201103L
-static constexpr size_t bg_music_ogg_size=3686138;
+static constexpr size_t bg_music_ogg_size=3947506;
 #else
-static const size_t bg_music_ogg_size=3686138;
+static const size_t bg_music_ogg_size=3947506;
 #endif

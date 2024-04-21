@@ -1,6 +1,6 @@
 gui_keyboard.o: \
- C:/Users/dakot/wiiProj/libwiigui/source/libwiigui/gui_keyboard.cpp \
- C:/Users/dakot/wiiProj/libwiigui/source/libwiigui/gui.h \
+ C:/Users/Dakotath/Documents/My_Applications/Wii/old_projects/wiigptii_src/source/libwiigui/gui_keyboard.cpp \
+ C:/Users/Dakotath/Documents/My_Applications/Wii/old_projects/wiigptii_src/source/libwiigui/gui.h \
  C:/devkitPro/libogc/include/gccore.h \
  C:/devkitPro/libogc/include/ogc/dsp.h \
  C:/devkitPro/libogc/include/gctypes.h \
@@ -60,8 +60,8 @@ gui_keyboard.o: \
  C:/devkitPro/libogc/include/wiiuse/wiiuse.h \
  C:/devkitPro/libogc/include/bte/bte.h \
  C:/devkitPro/libogc/include/bte/bd_addr.h \
- C:/Users/dakot/wiiProj/libwiigui/source/pngu.h \
- C:/Users/dakot/wiiProj/libwiigui/source/FreeTypeGX.h \
+ C:/Users/Dakotath/Documents/My_Applications/Wii/old_projects/wiigptii_src/source/pngu.h \
+ C:/Users/Dakotath/Documents/My_Applications/Wii/old_projects/wiigptii_src/source/FreeTypeGX.h \
  C:/devkitPro/portlibs/ppc/include/freetype2/ft2build.h \
  C:/devkitPro/portlibs/ppc/include/freetype2/freetype/config/ftheader.h \
  C:/devkitPro/portlibs/ppc/include/freetype2/freetype/freetype.h \
@@ -79,18 +79,18 @@ gui_keyboard.o: \
  C:/devkitPro/portlibs/ppc/include/freetype2/freetype/fterrdef.h \
  C:/devkitPro/portlibs/ppc/include/freetype2/freetype/ftbitmap.h \
  C:/devkitPro/portlibs/ppc/include/freetype2/freetype/ftcolor.h \
- C:/Users/dakot/wiiProj/libwiigui/source/video.h \
+ C:/Users/Dakotath/Documents/My_Applications/Wii/old_projects/wiigptii_src/source/video.h \
  C:/devkitPro/libogc/include/ogcsys.h \
- C:/Users/dakot/wiiProj/libwiigui/source/filelist.h \
- C:/Users/dakot/wiiProj/libwiigui/source/input.h \
- C:/Users/dakot/wiiProj/libwiigui/source/oggplayer.h \
- C:/Users/dakot/wiiProj/libwiigui/source/audio.h \
- C:/Users/dakot/wiiProj/libwiigui/build/button_over_pcm.h \
- C:/Users/dakot/wiiProj/libwiigui/build/button_click_pcm.h \
+ C:/Users/Dakotath/Documents/My_Applications/Wii/old_projects/wiigptii_src/source/filelist.h \
+ C:/Users/Dakotath/Documents/My_Applications/Wii/old_projects/wiigptii_src/source/input.h \
+ C:/Users/Dakotath/Documents/My_Applications/Wii/old_projects/wiigptii_src/source/oggplayer.h \
+ C:/Users/Dakotath/Documents/My_Applications/Wii/old_projects/wiigptii_src/source/audio.h \
+ C:/Users/Dakotath/Documents/My_Applications/Wii/old_projects/wiigptii_src/build/button_over_pcm.h \
+ C:/Users/Dakotath/Documents/My_Applications/Wii/old_projects/wiigptii_src/build/button_click_pcm.h \
  C:/devkitPro/libogc/include/wiikeyboard/usbkeyboard.h \
  C:/devkitPro/libogc/include/wiikeyboard/keyboard.h \
  C:/devkitPro/libogc/include/wiikeyboard/wsksymdef.h
-C:/Users/dakot/wiiProj/libwiigui/source/libwiigui/gui.h:
+C:/Users/Dakotath/Documents/My_Applications/Wii/old_projects/wiigptii_src/source/libwiigui/gui.h:
 C:/devkitPro/libogc/include/gccore.h:
 C:/devkitPro/libogc/include/ogc/dsp.h:
 C:/devkitPro/libogc/include/gctypes.h:
@@ -150,8 +150,8 @@ C:/devkitPro/libogc/include/wiiuse/wpad.h:
 C:/devkitPro/libogc/include/wiiuse/wiiuse.h:
 C:/devkitPro/libogc/include/bte/bte.h:
 C:/devkitPro/libogc/include/bte/bd_addr.h:
-C:/Users/dakot/wiiProj/libwiigui/source/pngu.h:
-C:/Users/dakot/wiiProj/libwiigui/source/FreeTypeGX.h:
+C:/Users/Dakotath/Documents/My_Applications/Wii/old_projects/wiigptii_src/source/pngu.h:
+C:/Users/Dakotath/Documents/My_Applications/Wii/old_projects/wiigptii_src/source/FreeTypeGX.h:
 C:/devkitPro/portlibs/ppc/include/freetype2/ft2build.h:
 C:/devkitPro/portlibs/ppc/include/freetype2/freetype/config/ftheader.h:
 C:/devkitPro/portlibs/ppc/include/freetype2/freetype/freetype.h:
@@ -169,14 +169,14 @@ C:/devkitPro/portlibs/ppc/include/freetype2/freetype/ftmoderr.h:
 C:/devkitPro/portlibs/ppc/include/freetype2/freetype/fterrdef.h:
 C:/devkitPro/portlibs/ppc/include/freetype2/freetype/ftbitmap.h:
 C:/devkitPro/portlibs/ppc/include/freetype2/freetype/ftcolor.h:
-C:/Users/dakot/wiiProj/libwiigui/source/video.h:
+C:/Users/Dakotath/Documents/My_Applications/Wii/old_projects/wiigptii_src/source/video.h:
 C:/devkitPro/libogc/include/ogcsys.h:
-C:/Users/dakot/wiiProj/libwiigui/source/filelist.h:
-C:/Users/dakot/wiiProj/libwiigui/source/input.h:
-C:/Users/dakot/wiiProj/libwiigui/source/oggplayer.h:
-C:/Users/dakot/wiiProj/libwiigui/source/audio.h:
-C:/Users/dakot/wiiProj/libwiigui/build/button_over_pcm.h:
-C:/Users/dakot/wiiProj/libwiigui/build/button_click_pcm.h:
+C:/Users/Dakotath/Documents/My_Applications/Wii/old_projects/wiigptii_src/source/filelist.h:
+C:/Users/Dakotath/Documents/My_Applications/Wii/old_projects/wiigptii_src/source/input.h:
+C:/Users/Dakotath/Documents/My_Applications/Wii/old_projects/wiigptii_src/source/oggplayer.h:
+C:/Users/Dakotath/Documents/My_Applications/Wii/old_projects/wiigptii_src/source/audio.h:
+C:/Users/Dakotath/Documents/My_Applications/Wii/old_projects/wiigptii_src/build/button_over_pcm.h:
+C:/Users/Dakotath/Documents/My_Applications/Wii/old_projects/wiigptii_src/build/button_click_pcm.h:
 C:/devkitPro/libogc/include/wiikeyboard/usbkeyboard.h:
 C:/devkitPro/libogc/include/wiikeyboard/keyboard.h:
 C:/devkitPro/libogc/include/wiikeyboard/wsksymdef.h:

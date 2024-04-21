@@ -1,4 +1,5 @@
-demo.o: C:/Users/dakot/wiiProj/libwiigui/source/demo.cpp \
+demo.o: \
+ C:/Users/Dakotath/Documents/My_Applications/Wii/old_projects/wiigptii_src/source/demo.cpp \
  C:/devkitPro/libogc/include/gccore.h \
  C:/devkitPro/libogc/include/ogc/dsp.h \
  C:/devkitPro/libogc/include/gctypes.h \
@@ -63,7 +64,7 @@ demo.o: C:/Users/dakot/wiiProj/libwiigui/source/demo.cpp \
  C:/devkitPro/libogc/include/wiikeyboard/keyboard.h \
  C:/devkitPro/libogc/include/wiikeyboard/wsksymdef.h \
  C:/devkitPro/libogc/include/ogc/usbgecko.h \
- C:/Users/dakot/wiiProj/libwiigui/source/FreeTypeGX.h \
+ C:/Users/Dakotath/Documents/My_Applications/Wii/old_projects/wiigptii_src/source/FreeTypeGX.h \
  C:/devkitPro/portlibs/ppc/include/freetype2/ft2build.h \
  C:/devkitPro/portlibs/ppc/include/freetype2/freetype/config/ftheader.h \
  C:/devkitPro/portlibs/ppc/include/freetype2/freetype/freetype.h \
@@ -81,20 +82,20 @@ demo.o: C:/Users/dakot/wiiProj/libwiigui/source/demo.cpp \
  C:/devkitPro/portlibs/ppc/include/freetype2/freetype/fterrdef.h \
  C:/devkitPro/portlibs/ppc/include/freetype2/freetype/ftbitmap.h \
  C:/devkitPro/portlibs/ppc/include/freetype2/freetype/ftcolor.h \
- C:/Users/dakot/wiiProj/libwiigui/source/video.h \
- C:/Users/dakot/wiiProj/libwiigui/source/audio.h \
- C:/Users/dakot/wiiProj/libwiigui/source/menu.h \
- C:/Users/dakot/wiiProj/libwiigui/source/input.h \
- C:/Users/dakot/wiiProj/libwiigui/source/filelist.h \
- C:/Users/dakot/wiiProj/libwiigui/source/demo.h \
- C:/Users/dakot/wiiProj/libwiigui/build/font_ttf.h \
- C:/Users/dakot/wiiProj/libwiigui/source/networking.h \
- C:/Users/dakot/wiiProj/libwiigui/source/testTidy.h \
- C:/Users/dakot/wiiProj/libwiigui/source/libtidyhtml5/tidy.h \
- C:/Users/dakot/wiiProj/libwiigui/source/libtidyhtml5/tidyplatform.h \
- C:/Users/dakot/wiiProj/libwiigui/source/libtidyhtml5/tidyenum.h \
- C:/Users/dakot/wiiProj/libwiigui/source/libtidyhtml5/tidybuffio.h \
- C:/Users/dakot/wiiProj/libwiigui/source/libtidyhtml5/tidy.h \
+ C:/Users/Dakotath/Documents/My_Applications/Wii/old_projects/wiigptii_src/source/video.h \
+ C:/Users/Dakotath/Documents/My_Applications/Wii/old_projects/wiigptii_src/source/audio.h \
+ C:/Users/Dakotath/Documents/My_Applications/Wii/old_projects/wiigptii_src/source/menu.h \
+ C:/Users/Dakotath/Documents/My_Applications/Wii/old_projects/wiigptii_src/source/input.h \
+ C:/Users/Dakotath/Documents/My_Applications/Wii/old_projects/wiigptii_src/source/filelist.h \
+ C:/Users/Dakotath/Documents/My_Applications/Wii/old_projects/wiigptii_src/source/demo.h \
+ C:/Users/Dakotath/Documents/My_Applications/Wii/old_projects/wiigptii_src/build/font_ttf.h \
+ C:/Users/Dakotath/Documents/My_Applications/Wii/old_projects/wiigptii_src/source/networking.h \
+ C:/Users/Dakotath/Documents/My_Applications/Wii/old_projects/wiigptii_src/source/testTidy.h \
+ C:/Users/Dakotath/Documents/My_Applications/Wii/old_projects/wiigptii_src/source/libtidyhtml5/tidy.h \
+ C:/Users/Dakotath/Documents/My_Applications/Wii/old_projects/wiigptii_src/source/libtidyhtml5/tidyplatform.h \
+ C:/Users/Dakotath/Documents/My_Applications/Wii/old_projects/wiigptii_src/source/libtidyhtml5/tidyenum.h \
+ C:/Users/Dakotath/Documents/My_Applications/Wii/old_projects/wiigptii_src/source/libtidyhtml5/tidybuffio.h \
+ C:/Users/Dakotath/Documents/My_Applications/Wii/old_projects/wiigptii_src/source/libtidyhtml5/tidy.h \
  C:/devkitPro/portlibs/wii/include/curl/curl.h \
  C:/devkitPro/portlibs/wii/include/curl/curlver.h \
  C:/devkitPro/portlibs/wii/include/curl/system.h \
@@ -104,7 +105,19 @@ demo.o: C:/Users/dakot/wiiProj/libwiigui/source/demo.cpp \
  C:/devkitPro/portlibs/wii/include/curl/curl.h \
  C:/devkitPro/portlibs/wii/include/curl/urlapi.h \
  C:/devkitPro/portlibs/wii/include/curl/options.h \
- C:/Users/dakot/wiiProj/libwiigui/build/popup_pcm.h
+ C:/devkitPro/portlibs/wii/include/curl/header.h \
+ C:/devkitPro/portlibs/wii/include/curl/websockets.h \
+ C:/devkitPro/portlibs/wii/include/curl/mprintf.h \
+ C:/Users/Dakotath/Documents/My_Applications/Wii/old_projects/wiigptii_src/build/popup_pcm.h \
+ C:/Users/Dakotath/Documents/My_Applications/Wii/old_projects/wiigptii_src/source/download.h \
+ C:/Users/Dakotath/Documents/My_Applications/Wii/old_projects/wiigptii_src/source/libwiigui/gui.h \
+ C:/devkitPro/libogc/include/asndlib.h \
+ C:/Users/Dakotath/Documents/My_Applications/Wii/old_projects/wiigptii_src/source/pngu.h \
+ C:/Users/Dakotath/Documents/My_Applications/Wii/old_projects/wiigptii_src/source/FreeTypeGX.h \
+ C:/Users/Dakotath/Documents/My_Applications/Wii/old_projects/wiigptii_src/source/video.h \
+ C:/Users/Dakotath/Documents/My_Applications/Wii/old_projects/wiigptii_src/source/filelist.h \
+ C:/Users/Dakotath/Documents/My_Applications/Wii/old_projects/wiigptii_src/source/input.h \
+ C:/Users/Dakotath/Documents/My_Applications/Wii/old_projects/wiigptii_src/source/oggplayer.h
 C:/devkitPro/libogc/include/gccore.h:
 C:/devkitPro/libogc/include/ogc/dsp.h:
 C:/devkitPro/libogc/include/gctypes.h:
@@ -170,7 +183,7 @@ C:/devkitPro/libogc/include/libfatversion.h:
 C:/devkitPro/libogc/include/wiikeyboard/keyboard.h:
 C:/devkitPro/libogc/include/wiikeyboard/wsksymdef.h:
 C:/devkitPro/libogc/include/ogc/usbgecko.h:
-C:/Users/dakot/wiiProj/libwiigui/source/FreeTypeGX.h:
+C:/Users/Dakotath/Documents/My_Applications/Wii/old_projects/wiigptii_src/source/FreeTypeGX.h:
 C:/devkitPro/portlibs/ppc/include/freetype2/ft2build.h:
 C:/devkitPro/portlibs/ppc/include/freetype2/freetype/config/ftheader.h:
 C:/devkitPro/portlibs/ppc/include/freetype2/freetype/freetype.h:
@@ -188,20 +201,20 @@ C:/devkitPro/portlibs/ppc/include/freetype2/freetype/ftmoderr.h:
 C:/devkitPro/portlibs/ppc/include/freetype2/freetype/fterrdef.h:
 C:/devkitPro/portlibs/ppc/include/freetype2/freetype/ftbitmap.h:
 C:/devkitPro/portlibs/ppc/include/freetype2/freetype/ftcolor.h:
-C:/Users/dakot/wiiProj/libwiigui/source/video.h:
-C:/Users/dakot/wiiProj/libwiigui/source/audio.h:
-C:/Users/dakot/wiiProj/libwiigui/source/menu.h:
-C:/Users/dakot/wiiProj/libwiigui/source/input.h:
-C:/Users/dakot/wiiProj/libwiigui/source/filelist.h:
-C:/Users/dakot/wiiProj/libwiigui/source/demo.h:
-C:/Users/dakot/wiiProj/libwiigui/build/font_ttf.h:
-C:/Users/dakot/wiiProj/libwiigui/source/networking.h:
-C:/Users/dakot/wiiProj/libwiigui/source/testTidy.h:
-C:/Users/dakot/wiiProj/libwiigui/source/libtidyhtml5/tidy.h:
-C:/Users/dakot/wiiProj/libwiigui/source/libtidyhtml5/tidyplatform.h:
-C:/Users/dakot/wiiProj/libwiigui/source/libtidyhtml5/tidyenum.h:
-C:/Users/dakot/wiiProj/libwiigui/source/libtidyhtml5/tidybuffio.h:
-C:/Users/dakot/wiiProj/libwiigui/source/libtidyhtml5/tidy.h:
+C:/Users/Dakotath/Documents/My_Applications/Wii/old_projects/wiigptii_src/source/video.h:
+C:/Users/Dakotath/Documents/My_Applications/Wii/old_projects/wiigptii_src/source/audio.h:
+C:/Users/Dakotath/Documents/My_Applications/Wii/old_projects/wiigptii_src/source/menu.h:
+C:/Users/Dakotath/Documents/My_Applications/Wii/old_projects/wiigptii_src/source/input.h:
+C:/Users/Dakotath/Documents/My_Applications/Wii/old_projects/wiigptii_src/source/filelist.h:
+C:/Users/Dakotath/Documents/My_Applications/Wii/old_projects/wiigptii_src/source/demo.h:
+C:/Users/Dakotath/Documents/My_Applications/Wii/old_projects/wiigptii_src/build/font_ttf.h:
+C:/Users/Dakotath/Documents/My_Applications/Wii/old_projects/wiigptii_src/source/networking.h:
+C:/Users/Dakotath/Documents/My_Applications/Wii/old_projects/wiigptii_src/source/testTidy.h:
+C:/Users/Dakotath/Documents/My_Applications/Wii/old_projects/wiigptii_src/source/libtidyhtml5/tidy.h:
+C:/Users/Dakotath/Documents/My_Applications/Wii/old_projects/wiigptii_src/source/libtidyhtml5/tidyplatform.h:
+C:/Users/Dakotath/Documents/My_Applications/Wii/old_projects/wiigptii_src/source/libtidyhtml5/tidyenum.h:
+C:/Users/Dakotath/Documents/My_Applications/Wii/old_projects/wiigptii_src/source/libtidyhtml5/tidybuffio.h:
+C:/Users/Dakotath/Documents/My_Applications/Wii/old_projects/wiigptii_src/source/libtidyhtml5/tidy.h:
 C:/devkitPro/portlibs/wii/include/curl/curl.h:
 C:/devkitPro/portlibs/wii/include/curl/curlver.h:
 C:/devkitPro/portlibs/wii/include/curl/system.h:
@@ -211,4 +224,16 @@ C:/devkitPro/portlibs/wii/include/curl/multi.h:
 C:/devkitPro/portlibs/wii/include/curl/curl.h:
 C:/devkitPro/portlibs/wii/include/curl/urlapi.h:
 C:/devkitPro/portlibs/wii/include/curl/options.h:
-C:/Users/dakot/wiiProj/libwiigui/build/popup_pcm.h:
+C:/devkitPro/portlibs/wii/include/curl/header.h:
+C:/devkitPro/portlibs/wii/include/curl/websockets.h:
+C:/devkitPro/portlibs/wii/include/curl/mprintf.h:
+C:/Users/Dakotath/Documents/My_Applications/Wii/old_projects/wiigptii_src/build/popup_pcm.h:
+C:/Users/Dakotath/Documents/My_Applications/Wii/old_projects/wiigptii_src/source/download.h:
+C:/Users/Dakotath/Documents/My_Applications/Wii/old_projects/wiigptii_src/source/libwiigui/gui.h:
+C:/devkitPro/libogc/include/asndlib.h:
+C:/Users/Dakotath/Documents/My_Applications/Wii/old_projects/wiigptii_src/source/pngu.h:
+C:/Users/Dakotath/Documents/My_Applications/Wii/old_projects/wiigptii_src/source/FreeTypeGX.h:
+C:/Users/Dakotath/Documents/My_Applications/Wii/old_projects/wiigptii_src/source/video.h:
+C:/Users/Dakotath/Documents/My_Applications/Wii/old_projects/wiigptii_src/source/filelist.h:
+C:/Users/Dakotath/Documents/My_Applications/Wii/old_projects/wiigptii_src/source/input.h:
+C:/Users/Dakotath/Documents/My_Applications/Wii/old_projects/wiigptii_src/source/oggplayer.h:

@@ -15,6 +15,7 @@ struct UpdateData {
   char* relNotes;
 };
 
+void logVersionInfo();
 CURLcode curl_download(char *url, FILE *fp);
 CURLcode curl_download_buffer(char *url, char* buffer);
 UpdateData checkUpdates();

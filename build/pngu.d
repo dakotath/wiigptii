@@ -1,4 +1,5 @@
-pngu.o: C:/Users/dakot/wiiProj/libwiigui/source/pngu.c \
+pngu.o: \
+ C:/Users/Dakotath/Documents/My_Applications/Wii/old_projects/wiigptii_src/source/pngu.c \
  C:/devkitPro/libogc/include/gccore.h \
  C:/devkitPro/libogc/include/ogc/dsp.h \
  C:/devkitPro/libogc/include/gctypes.h \
@@ -53,7 +54,7 @@ pngu.o: C:/Users/dakot/wiiProj/libwiigui/source/pngu.c \
  C:/devkitPro/libogc/include/ogc/mutex.h \
  C:/devkitPro/libogc/include/ogc/system.h \
  C:/devkitPro/libogc/include/ogc/wiilaunch.h \
- C:/Users/dakot/wiiProj/libwiigui/source/pngu.h \
+ C:/Users/Dakotath/Documents/My_Applications/Wii/old_projects/wiigptii_src/source/pngu.h \
  C:/devkitPro/portlibs/ppc/include/png.h \
  C:/devkitPro/portlibs/ppc/include/pnglibconf.h \
  C:/devkitPro/portlibs/ppc/include/pngconf.h
@@ -111,7 +112,7 @@ C:/devkitPro/libogc/include/ogc/usbstorage.h:
 C:/devkitPro/libogc/include/ogc/mutex.h:
 C:/devkitPro/libogc/include/ogc/system.h:
 C:/devkitPro/libogc/include/ogc/wiilaunch.h:
-C:/Users/dakot/wiiProj/libwiigui/source/pngu.h:
+C:/Users/Dakotath/Documents/My_Applications/Wii/old_projects/wiigptii_src/source/pngu.h:
 C:/devkitPro/portlibs/ppc/include/png.h:
 C:/devkitPro/portlibs/ppc/include/pnglibconf.h:
 C:/devkitPro/portlibs/ppc/include/pngconf.h:

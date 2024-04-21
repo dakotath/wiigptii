@@ -13,6 +13,7 @@
 
 void InitAudio();
 void playSfx(const void* buffer, long buffer_size, int channel);
+void playTTS(const void* buffer, long buffer_size, int channel);
 bool audioPlaying(int channel);
 void ShutdownAudio();
 

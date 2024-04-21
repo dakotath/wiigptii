@@ -1,7 +1,8 @@
-gettext.o: C:/Users/dakot/wiiProj/libwiigui/source/gettext.cpp \
+gettext.o: \
+ C:/Users/Dakotath/Documents/My_Applications/Wii/old_projects/wiigptii_src/source/gettext.cpp \
  C:/devkitPro/libogc/include/gctypes.h \
- C:/Users/dakot/wiiProj/libwiigui/source/gettext.h \
- C:/Users/dakot/wiiProj/libwiigui/source/filelist.h \
+ C:/Users/Dakotath/Documents/My_Applications/Wii/old_projects/wiigptii_src/source/gettext.h \
+ C:/Users/Dakotath/Documents/My_Applications/Wii/old_projects/wiigptii_src/source/filelist.h \
  C:/devkitPro/libogc/include/gccore.h \
  C:/devkitPro/libogc/include/ogc/dsp.h \
  C:/devkitPro/libogc/include/ogc/aram.h \
@@ -56,8 +57,8 @@ gettext.o: C:/Users/dakot/wiiProj/libwiigui/source/gettext.cpp \
  C:/devkitPro/libogc/include/ogc/system.h \
  C:/devkitPro/libogc/include/ogc/wiilaunch.h
 C:/devkitPro/libogc/include/gctypes.h:
-C:/Users/dakot/wiiProj/libwiigui/source/gettext.h:
-C:/Users/dakot/wiiProj/libwiigui/source/filelist.h:
+C:/Users/Dakotath/Documents/My_Applications/Wii/old_projects/wiigptii_src/source/gettext.h:
+C:/Users/Dakotath/Documents/My_Applications/Wii/old_projects/wiigptii_src/source/filelist.h:
 C:/devkitPro/libogc/include/gccore.h:
 C:/devkitPro/libogc/include/ogc/dsp.h:
 C:/devkitPro/libogc/include/ogc/aram.h:

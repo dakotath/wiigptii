@@ -29,6 +29,14 @@ void playSfx(const void* buffer, long buffer_size, int channel)
     ASND_SetVoice(channel, format, 32000, 0, (void*)buffer, buffer_size, 255, 255, NULL);
 	ASND_Pause(0);
 }
+
+void playTTS(const void* buffer, long buffer_size, int channel)
+{
+	u32 format = VOICE_MONO_16BIT_LE;
+    ASND_SetVoice(channel, format, 24000, 0, (void*)buffer, buffer_size, 255, 255, NULL);
+	ASND_Pause(0);
+}
+
 bool audioPlaying(int channel)
 {
 	if(ASND_StatusVoice(channel) == SND_WORKING || ASND_StatusVoice(channel) == SND_WAITING)

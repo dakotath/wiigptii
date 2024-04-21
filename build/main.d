@@ -1,4 +1,5 @@
-main.o: C:/Users/dakot/wiiProj/libwiigui/source/libsam/main.c \
+main.o: \
+ C:/Users/Dakotath/Documents/My_Applications/Wii/old_projects/wiigptii_src/source/libsam/main.c \
  C:/devkitPro/libogc/include/gccore.h \
  C:/devkitPro/libogc/include/ogc/dsp.h \
  C:/devkitPro/libogc/include/gctypes.h \
@@ -61,9 +62,9 @@ main.o: C:/Users/dakot/wiiProj/libwiigui/source/libsam/main.c \
  C:/devkitPro/libogc/include/fat.h \
  C:/devkitPro/libogc/include/libfatversion.h \
  C:/devkitPro/libogc/include/asndlib.h \
- C:/Users/dakot/wiiProj/libwiigui/source/libsam/reciter.h \
- C:/Users/dakot/wiiProj/libwiigui/source/libsam/sam.h \
- C:/Users/dakot/wiiProj/libwiigui/source/libsam/debug.h
+ C:/Users/Dakotath/Documents/My_Applications/Wii/old_projects/wiigptii_src/source/libsam/reciter.h \
+ C:/Users/Dakotath/Documents/My_Applications/Wii/old_projects/wiigptii_src/source/libsam/sam.h \
+ C:/Users/Dakotath/Documents/My_Applications/Wii/old_projects/wiigptii_src/source/libsam/debug.h
 C:/devkitPro/libogc/include/gccore.h:
 C:/devkitPro/libogc/include/ogc/dsp.h:
 C:/devkitPro/libogc/include/gctypes.h:
@@ -126,6 +127,6 @@ C:/devkitPro/libogc/include/bte/bd_addr.h:
 C:/devkitPro/libogc/include/fat.h:
 C:/devkitPro/libogc/include/libfatversion.h:
 C:/devkitPro/libogc/include/asndlib.h:
-C:/Users/dakot/wiiProj/libwiigui/source/libsam/reciter.h:
-C:/Users/dakot/wiiProj/libwiigui/source/libsam/sam.h:
-C:/Users/dakot/wiiProj/libwiigui/source/libsam/debug.h:
+C:/Users/Dakotath/Documents/My_Applications/Wii/old_projects/wiigptii_src/source/libsam/reciter.h:
+C:/Users/Dakotath/Documents/My_Applications/Wii/old_projects/wiigptii_src/source/libsam/sam.h:
+C:/Users/Dakotath/Documents/My_Applications/Wii/old_projects/wiigptii_src/source/libsam/debug.h:

@@ -1,4 +1,5 @@
-audio.o: C:/Users/dakot/wiiProj/libwiigui/source/audio.cpp \
+audio.o: \
+ C:/Users/Dakotath/Documents/My_Applications/Wii/old_projects/wiigptii_src/source/audio.cpp \
  C:/devkitPro/libogc/include/gccore.h \
  C:/devkitPro/libogc/include/ogc/dsp.h \
  C:/devkitPro/libogc/include/gctypes.h \

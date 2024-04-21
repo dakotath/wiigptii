@@ -13,6 +13,8 @@
 
 void InitGUIThreads();
 void MainMenu (int menuitem);
+int WindowPromptSmall(const char *title, const char *msg, const char *btn1Label, const char *btn2Label);
+int WindowPrompt(const char *title, const char *msg, const char *btn1Label, const char *btn2Label);
 
 enum
 {

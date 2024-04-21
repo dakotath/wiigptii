@@ -1,4 +1,5 @@
-oggplayer.o: C:/Users/dakot/wiiProj/libwiigui/source/oggplayer.c \
+oggplayer.o: \
+ C:/Users/Dakotath/Documents/My_Applications/Wii/old_projects/wiigptii_src/source/oggplayer.c \
  C:/devkitPro/libogc/include/asndlib.h \
  C:/devkitPro/libogc/include/gctypes.h \
  C:/devkitPro/portlibs/ppc/include/tremor/ivorbiscodec.h \
@@ -60,7 +61,7 @@ oggplayer.o: C:/Users/dakot/wiiProj/libwiigui/source/oggplayer.c \
  C:/devkitPro/libogc/include/ogc/mutex.h \
  C:/devkitPro/libogc/include/ogc/system.h \
  C:/devkitPro/libogc/include/ogc/wiilaunch.h \
- C:/Users/dakot/wiiProj/libwiigui/source/oggplayer.h
+ C:/Users/Dakotath/Documents/My_Applications/Wii/old_projects/wiigptii_src/source/oggplayer.h
 C:/devkitPro/libogc/include/asndlib.h:
 C:/devkitPro/libogc/include/gctypes.h:
 C:/devkitPro/portlibs/ppc/include/tremor/ivorbiscodec.h:
@@ -122,4 +123,4 @@ C:/devkitPro/libogc/include/ogc/usbstorage.h:
 C:/devkitPro/libogc/include/ogc/mutex.h:
 C:/devkitPro/libogc/include/ogc/system.h:
 C:/devkitPro/libogc/include/ogc/wiilaunch.h:
-C:/Users/dakot/wiiProj/libwiigui/source/oggplayer.h:
+C:/Users/Dakotath/Documents/My_Applications/Wii/old_projects/wiigptii_src/source/oggplayer.h:
