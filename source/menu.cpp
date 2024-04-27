@@ -1277,8 +1277,7 @@ void MainMenu(int menu)
 
 	mainWindow = new GuiWindow(screenwidth, screenheight);
 
-	bgImg = new GuiImage(screenwidth, screenheight, (GXColor){50, 50, 50, 255});
-	bgImg->ColorStripe(30);
+	bgImg = new GuiImage(screenwidth, screenheight, (GXColor){116, 170, 156});
 	mainWindow->Append(bgImg);
 
 	GuiTrigger trigA;
